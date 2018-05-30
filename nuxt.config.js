@@ -15,9 +15,6 @@ module.exports = {
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' }
     ]
   },
-  router: {
-    base: './'
-  },
   plugins: ['~/plugins/vuetify.js'],
   css: [
     '~/assets/style/app.styl'
@@ -30,7 +27,10 @@ module.exports = {
   ** Build configuration
   */
   generate: {
-    dir: 'docs'
+    dir: 'docs',
+    router: {
+      base: './'
+    }
   },
   build: {
     vendor: [

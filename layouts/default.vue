@@ -26,7 +26,7 @@
         </nuxt-link>
         <v-toolbar-title color='orange' >
           <nuxt-link to='/' style='text-decoration:none;color:white;' >
-          Appointment<span style='color:black;' >Guru</span></nuxt-link>
+          Appointment<span style='color:black;' >Guru</span> - <i>Sales Handbook</i></nuxt-link>
       </v-toolbar-title>
       <v-toolbar-items class="ml-4 hidden-sm-and-down">
         <v-btn v-for='(item, i) in items' :key='i' :to='item.to' flat>{{item.title}}</v-btn>
@@ -84,15 +84,15 @@
               },
               {
                 title: 'Objections',
-                to: '/message/short-pitches'
+                to: '/message/objections'
               },
               {
                 title: 'Mobile demo',
-                to: '/message/longer-pitches'
+                to: '/message/mobile-demo'
               },
               {
                 title: 'Computer demo',
-                to: '/message/longer-pitches'
+                to: '/message/computer-demo'
               }
             ]
           },
