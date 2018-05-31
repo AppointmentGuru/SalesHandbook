@@ -123,8 +123,52 @@
                 to: '/guides/brand'
               },
               {
+                title: 'Ideal customer profile',
+                to: '/guides/ideal-customer-profile'
+              },
+              {
                 title: 'Text and tone standards',
                 to: '/guides/text-and-tone'
+              },
+              {
+                title: 'Blogs, books, podcasts etc',
+                to: '/guides/learn'
+              }
+            ]
+          },
+          {
+            title: 'Playbooks',
+            to: '/playbooks',
+            children: [
+              {
+                title: 'Onboarding a profession',
+                to: '/plays/profession'
+              },
+              {
+                title: 'Onboarding a locality',
+                to: '/plays/locality'
+              },
+              {
+                title: 'Onboarding a country',
+                to: '/plays/country'
+              }
+            ]
+          },
+          {
+            title: 'Tools',
+            to: '/tools',
+            children: [
+              {
+                title: 'Message composer',
+                to: '/tools/composer'
+              },
+              {
+                title: 'Onboarding a locality',
+                to: '/plays/locality'
+              },
+              {
+                title: 'Onboarding a country',
+                to: '/plays/country'
               }
             ]
           }
