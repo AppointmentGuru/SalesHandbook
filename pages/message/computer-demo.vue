@@ -27,7 +27,7 @@ export default {
           choices: [
             'Creating invoices for a number of appointments',
             'How does it work when my clients book online?',
-            'Customizing my notifications'
+            'Customising my notifications'
           ],
           summary: `
   To start, I'd like to show how the process works end to end. We'll go through creating an appointment, adding ICD10 codes, creating an invoice, receiving payment on that invoice

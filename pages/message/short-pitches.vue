@@ -39,8 +39,8 @@ export default {
           showform: false,
           content: `
 Hi, my name is ${this.dynamicData.opening.name}. I’m calling **${this.dynamicData.opening.profession} in ${this.dynamicData.opening.place}** to find out if they are a good fit for our practice management software.
-What we do in a sentence is we provide companies with an end to end solution for managing your practice from appointments to invoices, payments and even your online presense.
-Does this in general sound interestng to you?`,
+What we do in a sentence: we provide businesses with an end-to-end solution for managing your practice from appointments to invoices, payments and even your online presence.
+Does this sound interesting to you?`,
           context: ['name', 'profession', 'place']
         },
         {
@@ -60,8 +60,8 @@ I'd love to get you set up. Would you like me to setup an account for you so tha
         {
           title: 'Next Steps',
           content: `
-Great. Sounds like this could be a good fit. I'll let you know when I've got your account all setup. Can we send you some getting started e-mails to
-get you up to speed? I'll follow up with you in a week and check to answer any questions you might have. Thank you so much for your time`
+Great. Sounds like this could be a good fit. I'll let you know when I've got your account all setup. Can we send you some getting-started emails to
+get you up to speed? I'll follow up with you in a week and check to answer any questions you might have. Thank you so much for your time.`
         }
       ]
     }
